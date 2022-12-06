@@ -127,6 +127,26 @@ html {
   transition: 0.3s;
   border-radius: 100%;
 }
+.inicio .contenedor-banner .redes a:nth-child(2):hover {
+    background-color: #fff;
+    color: #0e76a8 ;
+    transition: 0.3s;
+  }
+  .inicio .contenedor-banner .redes a:nth-child(1):hover {
+    background-color: #fff;
+    color: #3b5998  ;
+    transition: 0.3s;
+  }
+  .inicio .contenedor-banner .redes a:nth-child(3):hover {
+    background-color: #fff;
+    color: #934FA2  ;
+    transition: 0.3s;
+  }
+  .inicio .contenedor-banner .redes a:nth-child(5):hover {
+    background-color: #fff;
+    color: #1cb698  ;
+    transition: 0.3s;
+  }
 .inicio .contenedor-banner .redes a:hover {
   background-color: #fff;
   color: #1e2326;
@@ -744,6 +764,32 @@ footer .redes a{
     transition: 0.3s;
     border-radius: 100%;
 }
+footer .redes a:hover {
+    background-color: #fff;
+    color: #1e2326;
+    transition: 0.3s;
+  }
+  
+  footer .redes a:nth-child(2):hover {
+    background-color: #fff;
+    color: #0e76a8 ;
+    transition: 0.3s;
+  }
+  footer .redes a:nth-child(1):hover {
+    background-color: #fff;
+    color: #3b5998  ;
+    transition: 0.3s;
+  }
+  footer .redes a:nth-child(3):hover {
+    background-color: #fff;
+    color: #934FA2  ;
+    transition: 0.3s;
+  }
+  footer .redes a:nth-child(5):hover {
+    background-color: #fff;
+    color: #1cb698  ;
+    transition: 0.3s;
+  }
 footer .arriba{
     display: block;
     width: 50px;

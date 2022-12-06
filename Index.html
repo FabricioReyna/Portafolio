@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>My Portafolio</title>
+  </head>
+  <body>
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">Fabri</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+            <li><a href="#SobreMi" onclick="seleccionar()">Sobre Mi</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+            <li><a href="#cv" onclick="seleccionar()">Curriculum</a></li>
+            <li><a href="#Protafolio" onclick="seleccionar()">Portafolio</a></li>
+            <li><a href="#Contacto" onclick="seleccionar()">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="nav-container-resposive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+    <!-- Seccion Inicio -->
+    <div class="inicio" id="inicio">
+      <div class="contenedor-banner">
+        <div class="contenedor-img"><img src="./Imagen/Yo.jpg" alt="bg" /></div>
+        <h1>Fabricio Reyna</h1>
+        <h2>Desarrollador Frontend - Experto CSS/JS/REACT</h2>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-skype"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <section class="sobremi" id="SobreMi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+        <p>
+          <span>Hola, Soy Fabrcio Reyna</span> soy un programador especializado
+          en Desarrollado Frontend tengo Habilidades en html, css , JavaScript,
+          React y distintas librerias (Boostrap - Tailwand css).
+        </p>
+
+        <div class="fila">
+          <!-- DATOS PERSONALES -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                12-08-2003
+              </li>
+              <li>
+                <strong>Telefono</strong>
+                +54 3525434119
+              </li>
+              <li>
+                <strong>Email</strong>
+                fabricioreynacordes@gmail.com
+              </li>
+              <li>
+                <strong>Website</strong>
+                www.example.com
+              </li>
+              <li>
+                <strong>Ubicacion</strong>
+                Jesus Maria, Cordoba, Argentina
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>FREELANCER</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="conenedor-intereses">
+              <div class="intereses">
+                <i class="fa-solid fa-gamepad"></i>
+                JUEGOS
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-film"></i>
+                PELICULAS
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-headphones"></i>
+                MUSICA
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-plane"></i>
+                VIAJAR
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-medal"></i>
+                DEPORTES
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-car"></i>
+                CARS
+              </div>
+            </div>
+          </div>
+        </div>
+        <button id="descargar">
+         <a href="./cv/CV-Fabricio Reyna.pdf" download>Descargar mi CV</a>  <i class="fa-solid fa-download"></i>
+          <span class="overlay" ></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-skills">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!-- TECHINICAL SKILL -->
+          <div class="col">
+            <h3>Habilidades Tecnicas</h3>
+
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skil ">
+                <div class="progreso"> <span>60%</span> </div>
+              </div>
+            </div>
+            <div class="skill">
+                <span>HTML & CSS</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>90%</span> </div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>REACT</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>40%</span> </div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>Excel</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>90%</span> </div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>Canva</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>100%</span> </div>
+                </div>
+              </div>
+          </div>
+          <!-- Profesional Skils -->
+          <div class="col">
+            <h3>Habilidades Profesionales</h3>
+
+            <div class="skill">
+              <span>Comunicacion</span>
+              <div class="barra-skil">
+                <div class="progreso"> <span>90%</span> </div>
+              </div>
+            </div>
+            <div class="skill">
+                <span>Trabajo en Equipo</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>80%</span> </div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>Creatividad</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>80%</span> </div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>Dedicacion</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>90%</span> </div>
+                </div>
+              </div>
+              <div class="skill">
+                <span>Proyect Management</span>
+                <div class="barra-skil">
+                  <div class="progreso"> <span>60%</span> </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="cv" class="cv">
+        <div class="contenedor-cv">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Técnico de Nivel Medio en Producción Agropecuaria.</h4>
+                        <span class="casa">Educacion Educativa Pio Leon</span>
+                        <span class="fecha">2016-2022</span>
+                        <p>
+                            El Técnico en Producción Agropecuaria al culminar el Nivel Medio orientado en Producción de Bienes y Servicios habrá desarrollado las siguientes competencias orientadas: Aplicar conocimientos de ciencias básicas (Física, Química y Matemática) en contextos productivos de diversa complejidad.
+                        </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+                    <div class="item izq">
+                        <h4>Formacion Frontend</h4>
+                        <span class="casa">Domestika- AluraLatam+Oracle - CoderHouse</span>
+                        <span class="fecha">2019-2023</span>
+                        <p>
+                            Formacion Frontend conocer y desarrollar en ambitos de pagina web con la parte delantera denominada Frontend con el conocimiento de los lenguajes <b>HTML</b> - <b>CSS</b>, <b>JavaScript</b> y Etc.
+                        </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+                </div>
+                <div class="col derecha">
+                    <h3>Experencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Pasantias no Rentadas</h4>
+                        <span class="casa">AgroEmpresa-CASEIH</span>
+                        <span class="fecha">Oct-2022</span>
+                        <p>
+                            Los alumnos del ultimo año de ambas especialidades se insertan en empresas de la zona y dan sus primeros pasos en el mundo laboral. 
+                        </p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="Protafolio" class="Portafolio">
+        <div class="contenedor-portafolio">
+            <h2>Portafolio</h2>
+            <h3>Ultimas actualizaciones...</h3>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./Imagen/portafolio/EccomerceReact.png" alt="a">
+                    <div class="overlay">
+                        <a href="https://illustrious-medovik-87eb50.netlify.app/">
+                        <h4>Eccomerce React</h4>
+                        <p>Vista Previa</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./Imagen/portafolio/LogFormNeo.png" alt="a">
+                    <div class="overlay">
+                        <a href=""></a>
+                        <h4>LoginFrom HTML&CSS</h4>
+                        <p>Vista Previa</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./Imagen/portafolio/MusicWeb.png" alt="a">
+                    <div class="overlay">
+                        <h4>Music JavaScript</h4>
+                        <p>Vista Previa</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./Imagen/portafolio/FanPage.png" alt="a">
+                    <div class="overlay">
+                        <h4>Fan Page JavaScript</h4>
+                        <p>Vista Previa</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="Contacto" class="contacto">
+        <div class="contenido-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formspree.io/f/maykrjny"  method="POST">
+                        <input type="text" placeholder="Nombre" name="Name">
+                        <input type="tel" placeholder="Numero de Telefono" name="Tel" >
+                        <input type="gmail" placeholder="Direccion de correo" name="Email">
+                        <input type="text" placeholder="Tema" name="Tema">
+                        <textarea cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="./Imagen/portafolio/Location.png" alt="location">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                Calle 935,Jesus Maria, Cordoba, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                               Llamame: +54 3525 434119
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: fabricioreynacordes@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-arrow-up"></i></a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+          </div>
+    </footer>
+    <script src="./j/app.js"></script>
+  </body>
+</html>

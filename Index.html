@@ -309,16 +309,17 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <form action="https://formspree.io/f/maykrjny"  method="POST">
-                        <input type="text" placeholder="Nombre" name="Name">
-                        <input type="tel" placeholder="Numero de Telefono" name="Tel" >
-                        <input type="gmail" placeholder="Direccion de correo" name="Email">
-                        <input type="text" placeholder="Tema" name="Tema">
-                        <textarea cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
+                    <form action="https://formspree.io/f/maykrjny"  method="POST" id="formulario">
+                        <input type="text" placeholder="Nombre" name="Name" id="nombre">
+                        <input type="tel" placeholder="Numero de Telefono" name="Tel" id="telefono">
+                        <input type="gmail" placeholder="Direccion de correo" name="Email" id="correo">
+                        <input type="text" placeholder="Tema" name="Tema" id="tema">
+                        <textarea cols="30" rows="10" placeholder="Mensaje" name="message" required></textarea>
                         <button type="submit">
                             Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
                         </button>
+                        <span class="warnings" id="warnings"></span>
                     </form>
                 </div>
                 <!-- Mapa -->

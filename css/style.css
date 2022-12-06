@@ -660,6 +660,16 @@ html {
     color: #fff;
     font-size: 18px;
 }
+.contacto .col .warnings{
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contacto button{
     cursor: pointer;
   background: transparent;
@@ -772,6 +782,10 @@ footer .arriba{
     }
     .contacto .fila{
         display: block;
+    }
+    .contacto .col{
+        width: 100%; 
+
     }
 }
 @media screen and (max-width: 700px) {

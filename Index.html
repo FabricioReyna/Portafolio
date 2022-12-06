@@ -314,18 +314,20 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <form action="https://formspree.io/f/maykrjny"  method="POST" id="formulario">
-                        <input type="text" placeholder="Nombre" name="Name" id="nombre">
-                        <input type="tel" placeholder="Numero de Telefono" name="Tel" id="telefono">
-                        <input type="gmail" placeholder="Direccion de correo" name="Email" id="correo">
-                        <input type="text" placeholder="Tema" name="Tema" id="tema">
+                    <form action="https://formspree.io/f/maykrjny"  method="POST" >
+                        <input type="text" placeholder="Nombre" name="Name" id="nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+                        <input type="tel" placeholder="Numero de Telefono" name="Tel" id="telefono" required>
+                        <input type="gmail" placeholder="Direccion de correo" name="Email" id="correo" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+                        <input type="text" placeholder="Tema" name="Tema" id="tema" required>
                         <textarea cols="30" rows="10" placeholder="Mensaje" name="message" required></textarea>
                         <button type="submit">
                             Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
                         </button>
-                        <span class="warnings" id="warnings"></span>
                     </form>
+                    <span class="warnings" id="warnings"></span>
+
+
                 </div>
                 <!-- Mapa -->
                 <div class="col">

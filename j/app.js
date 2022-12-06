@@ -46,7 +46,7 @@ const descargar = document.getElementById("descargar")
 const nombre = document.getElementById("nombre")
 const email = document.getElementById("correo")
 const tel = document.getElementById("telefono")
-const form = document.getElementById("formulario")
+const form = document.querySelector(form)
 const parrafo = document.getElementById("warnings")
 const tipo = document.getElementById("tema")
 
@@ -68,10 +68,7 @@ form.addEventListener('submit', (e) =>{
 	if(!regexusuario.test(nombre.value)){
 		warnings += `Nombre no introducido <br>`
 		entrar = true
-	} else if (nombre.value.length < 8){
-		warnings +=`<br> No Introduciste mas de 8 caracteres <br>`
-		entrar = true
-	}
+	} 
 	if(!regexemail.test(email.value)){
 		warnings += `El email no es valido <br>`
 		entrar = true

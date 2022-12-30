@@ -234,6 +234,10 @@ html {
  align-items: center;
  justify-content: center;
 }
+.sobremi .or{
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
 .sobremi button {
   cursor: pointer;
   background: transparent;
@@ -838,6 +842,12 @@ footer .arriba{
         width: 100%; 
 
     }
+    .sobremi .seccion-descargar{
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+     }
 }
 @media screen and (max-width: 700px) {
     .sobremi .fila{

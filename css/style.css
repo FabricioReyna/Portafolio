@@ -229,6 +229,11 @@ html {
   font-size: 30px;
   margin-bottom: 10px;
 }
+.sobremi .seccion-descargar{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
 .sobremi button {
   cursor: pointer;
   background: transparent;

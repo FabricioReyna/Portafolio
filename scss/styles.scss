@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
+
+:root {
+  --Righteous: "Righteous";
+  --bg-1: linear-gradient(
+    3deg,
+    rgba(37, 42, 46, 1) 0%,
+    rgba(30, 35, 38, 1) 50%,
+    rgba(37, 42, 46, 1) 100%
+  );
+  --bg-2: linear-gradient(
+    3deg,
+    rgba(30, 35, 38, 1) 0%,
+    rgba(37, 42, 46, 1) 50%,
+    rgba(30, 35, 38, 1) 100%
+  );
+  --bg-3: linear-gradient(
+    3deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 254, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  --bg-4: linear-gradient(
+    3deg,
+    rgba(255, 254, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 254, 255, 1) 100%
+  );
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+}
+html {
+  scroll-behavior: smooth;
+}
+@import "dark";
+@import "light";
+  @media screen and (max-width: 980px) {
+    nav {
+      display: none;
+    }
+    .nav-container-resposive {
+      display: block;
+    }
+    nav.responsive {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 75px;
+      background-color: #252a2e;
+      width: 180px;
+    }
+    nav.responsive ul {
+      display: block;
+    }
+    nav.responsive ul li {
+      border-bottom: 1px solid #fff;
+      padding: 10px 0;
+    }
+    .contacto .fila {
+      display: block;
+    }
+    .contacto .col {
+      width: 100%;
+    }
+    .sobremi .seccion-descargar {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .sobremi .fila {
+      display: block;
+    }
+    .sobremi .fila .col {
+      width: fit-content;
+    }
+    .skills .fila {
+      display: block;
+    }
+    .skills .fila .col {
+      width: 100%;
+    }
+    .skills .fila .col .barra-skil {
+      width: 100%;
+    }
+    .cv .fila {
+      display: block;
+    }
+    .cv .fila .col {
+      width: 90%;
+    }
+    .cv .fila .derecha {
+      margin-left: 20px;
+      border: none;
+    }
+    .cv .fila .izquierda {
+      border: none;
+    }
+    .cv .fila .izq {
+      border-right: none;
+      margin-right: 0;
+    }
+    .cv .fila .der {
+      border-left: none;
+      margin-left: 0;
+    }
+    .cv .fila .item .conectori,
+    .cv .fila .item .conectord {
+      display: none;
+    }
+    .Portafolio .galeria {
+      display: block;
+      width: 100%;
+    }
+    .Portafolio .galeria .proyecto {
+      max-width: 100%;
+    }
+    .Portafolio .galeria .proyecto img {
+      width: 100%;
+    }
+    .contacto .fila {
+      display: block;
+    }
+    .contacto .col {
+      width: 100%;
+    }
+  }

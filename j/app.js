@@ -46,7 +46,7 @@ const descargar = document.getElementById("descargar")
 const nombre = document.getElementById("nombre")
 const email = document.getElementById("correo")
 const tel = document.getElementById("telefono")
-const form = document.querySelector(form)
+const form = document.querySelector("form")
 const parrafo = document.getElementById("warnings")
 const tipo = document.getElementById("tema")
 
@@ -90,3 +90,28 @@ form.addEventListener('submit', (e) =>{
 	}
 }
 )
+
+
+const boton = document.getElementById("Boton")
+
+boton.addEventListener("click", () => {
+    const body = document.body
+  
+        body.classList.toggle("Dark")
+        body.classList.toggle("Light")
+      if (boton.innerText != "tema oscuro"){
+        boton.textContent = "tema claro"
+        if (boton.textContent){
+            return boton.textContent = `tema claro`
+        }
+      } else{
+        boton.textContent = " tema oscuro"
+      }
+
+      console.log(boton.textContent)
+
+    
+   
+})
+console.log(boton.value)
+

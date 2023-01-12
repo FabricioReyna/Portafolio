@@ -99,17 +99,6 @@ boton.addEventListener("click", () => {
   
         body.classList.toggle("Dark")
         body.classList.toggle("Light")
-      if (boton.innerText != "tema oscuro"){
-        boton.textContent = "tema claro"
-        if (boton.textContent){
-            return boton.textContent = `tema claro`
-        }
-      } else{
-        boton.textContent = " tema oscuro"
-      }
-
-      console.log(boton.textContent)
-
     
    
 })

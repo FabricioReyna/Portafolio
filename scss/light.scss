@@ -56,27 +56,30 @@
         display: none;
       }
       .Theme-Dark-Light{
-
-        width: 120px;
+        width: 30px;
         height: 30px;
         display: flex;
         justify-content: center;
+        background: #1cb698;
+        border-radius: 50%;
+        border: 2px solid #3b5998;
+
           .Theme-Btn{
-            background: #131517;
-            color: #fff;
+            background-image: url("../Imagen/sol.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
             border: none;
             width: 100%;
             height: 100%;
             border-radius: 20px;
         cursor: pointer;
-text-transform: capitalize;
+        text-transform: capitalize;
             
           }
-          .Theme-Btn:hover{
-            background: #1cb698;
-            transition: 2s;
-          }
-        }
+
+      }
     }
   }
 

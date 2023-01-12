@@ -57,13 +57,16 @@
           display: none;
         }
         .Theme-Dark-Light{
-          width: 30px;
-          height: 30px;
+          width: 50px;
+          height: 50px;
           display: flex;
           justify-content: center;
           background: #1cb698;
           border-radius: 50%;
           border: 2px solid #fff;
+          position: fixed;
+          bottom: 20px;
+          left: 20px;
             .Theme-Btn{
               background-image: url("../Imagen/Luna.png");
               background-position: center;
